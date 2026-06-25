@@ -4,14 +4,14 @@
 ---
 
 ## 1. Problem Summary
-[cite_start]In this business scenario, a retail organization exported large volumes of order-level transactional sales data from multiple separate internal databases[cite: 3, 4]. [cite_start]The raw dataset suffered from widespread data corruption issues, including broken mixed-locale date formats, inconsistent text casing, trailing whitespace strings, calculation mismatches, negative discounts, and transaction leakage from cancelled or failed entries[cite: 5]. 
+In this business scenario, a retail organization exported large volumes of order-level transactional sales data from multiple separate internal databases[cite: 3, 4]. The raw dataset suffered from widespread data corruption issues, including broken mixed-locale date formats, inconsistent text casing, trailing whitespace strings, calculation mismatches, negative discounts, and transaction leakage from cancelled or failed entries[cite: 5]. 
 
-[cite_start]The primary business objective was to engineer a clean, structurally validated, and analysis-ready data warehouse (`data/cleaned_orders.xlsx`) alongside institutional data quality and pivot summaries to guide executive business review sessions[cite: 6, 7].
+The primary business objective was to engineer a clean, structurally validated, and analysis-ready data warehouse (`data/cleaned_orders.xlsx`) alongside institutional data quality and pivot summaries to guide executive business review sessions[cite: 6, 7].
 
 ---
 
 ## 2. Dataset Description
-[cite_start]The underlying dataset consists of historical order-level records tracking retail transactions across regional boundaries[cite: 4, 5]. The schema encompasses 24 core data attributes divided into three primary categories:
+The underlying dataset consists of historical order-level records tracking retail transactions across regional boundaries[cite: 4, 5]. The schema encompasses 24 core data attributes divided into three primary categories:
 * **Logistical Tracking:** `order_id`, `order_date`, `ship_date`, `ship_mode`, `shipping_delay_days`.
 * **Customer & Geography:** `customer_id`, `customer_name`, `segment`, `region`, `state`, `city`.
 * **Product & Financial Economics:** `category`, `sub_category`, `product_name`, `quantity`, `unit_price`, `discount`, `sales`, `cost`, `profit`, `payment_status`, `order_status`.
@@ -19,7 +19,7 @@
 ---
 
 ## 3. Tools Used
-* [cite_start]**Microsoft Excel:** Core data processing engine utilizing advanced cell state validations, logical text filters, mathematical parsing arrays, and Pivot Table models[cite: 31, 103].
+**Microsoft Excel:** Core data processing engine utilizing advanced cell state validations, logical text filters, mathematical parsing arrays, and Pivot Table models[cite: 31, 103].
 * **Python (pandas & openpyxl):** Employed script automation to systematically generate the 7-sheet data quality audit structure based on live cell-matrix validations.
 * [cite_start]**Markdown Syntax:** Used to format the comprehensive transaction auditing trails and project documentation logs[cite: 67].
 
