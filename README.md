@@ -95,6 +95,6 @@ Below are the visual previews of the repository data states captured during the 
 ![Pivot Table Summary 1](screenshots/pivot_summary_1.png)
 *Figure 3: Corporate regional summary table filtering out cancelled and failed entries to report accurate performance metrics.*
 
-### Transaction Revenue Leakage Audit (Pivot Table 2)
+### 2.	Sales and profit by category and sub-category (Pivot Table 2)
 ![Pivot Table Summary 2](screenshots/pivot_summary_2.png)
-*Figure 4: Standalone risk audit sheet isolating returns, cancellations, and payment collection faults across operational boundaries.*
+*Figure 4: Product Breakdown across different categories and subcategories
